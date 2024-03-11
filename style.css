@@ -7,6 +7,10 @@
   --paragraph-font: "Raleway", sans-serif;
 }
 
+.navbar {
+  font-family: var(--paragraph-font);
+}
+
 h1 {
   font-size: 56px;
   line-height: 64px;
@@ -36,7 +40,7 @@ h3 {
 
 .hero {
   text-align: center;
-  padding: 72px 0;
+  padding: 112px 0;
   background: var(--hero-bg-color);
   color: var(--text-color);
 }
@@ -48,6 +52,7 @@ h3 {
   border-color: var(--brand-color);
   border-width: 2px;
   padding: 8px 16px;
+  margin: 0 8px;
   font-family: var(--paragraph-font);
 }
 
@@ -100,4 +105,16 @@ p {
     line-height: 1.5;
     margin-bottom: 40px !important;
   }
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
