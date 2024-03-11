@@ -28,7 +28,6 @@ h2 {
 
 h3 {
   font-size: 24px !important;
-  opacity: 0.7;
 }
 
 .hero p {
@@ -117,4 +116,8 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.introduction h1 {
+  color: var(--text-color);
 }
