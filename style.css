@@ -45,8 +45,16 @@ h3 {
   background: var(--brand-color);
   color: white;
   border-radius: 24px;
+  border-color: var(--brand-color);
+  border-width: 2px;
   padding: 8px 16px;
   font-family: var(--paragraph-font);
+}
+
+.btn-branding:hover {
+  color: var(--text-color);
+  border-color: var(--brand-color);
+  border-width: 2px;
 }
 
 .container {
